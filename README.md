@@ -1,32 +1,24 @@
-# my-rails-api-default
+# README
 
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-rails-apiのテンプレートです。
+Things you may want to cover:
 
-## 前提
+* Ruby version
 
-- dockerが必要です。
+* System dependencies
 
-## setup
+* Configuration
 
-```
-docker compose build
-```
+* Database creation
 
-```
-docker compose run --rm api bin/setup
-```
+* Database initialization
 
-## run
+* How to run the test suite
 
-```
-docker compose up
-```
+* Services (job queues, cache servers, search engines, etc.)
 
-http://localhost:3000
+* Deployment instructions
 
-## rubocop
-
-```
-docker compose run --rm web bundle exec rubocop -A
-```
+* ...
